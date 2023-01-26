@@ -17,7 +17,7 @@ const Navbar = () => {
         Admin
       </NavLink>
       <NavLink to="/addUser" className=" hover:text-red-500">
-        AddUser
+        Add Customer
       </NavLink>
       <NavLink
         to="/cart"

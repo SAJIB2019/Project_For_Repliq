@@ -6,7 +6,6 @@ const CartView = () => {
     <div>
       <Navbar />
       <Cart />
-      console.log("alskd");
     </div>
   );
 };

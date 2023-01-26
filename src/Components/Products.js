@@ -28,12 +28,14 @@ const Products = () => {
   };
   return (
     <div className="bg-[ffffff] flex flex-col justify-center items-center container">
-      <div className="flex flex-col items-center justify-center py-8">
-        <h1 className="text-4xl font-bold font-Lora">Featured Product</h1>
-        <p className=" text-[15px] font-Lora">
+      <div className="flex flex-col items-center justify-center pt-8">
+        <h1 className="text-3xl md:text-4xl font-bold font-Lora">
+          Featured Product
+        </h1>
+        <p className="text-[12px] md:text-[15px] font-Lora py-3">
           Summer Collection New Modern Design
         </p>
-        <div className="space-x-5">
+        <div className="flex flex-col md:flex-row space-x-0 md:space-x-5 space-y-2 md:space-y-0  pb-4">
           <button
             className="btn bg-gray-200 hover:bg-white"
             onClick={() => setFilter(data)}
